@@ -1,5 +1,5 @@
 pipeline {
-  agent none {
+  agent any 
     stages {
       stage ('Building Java Application With Maven'){
         steps {
@@ -7,5 +7,5 @@ pipeline {
         }
       }
     }
-  }
+  
 }
