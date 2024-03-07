@@ -1,8 +1,8 @@
-pipeline{
-  agent any{
-    stages{
+pipeline {
+  agent any {
+    stages {
       stage ('Building Java Application With Maven'){
-        steps{
+        steps {
           sh 'mvn package'
         }
       }
